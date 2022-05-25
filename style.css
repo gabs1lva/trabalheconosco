@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: gray;
+}
+.box{
+    background-color: aqua;
+    display: block;
+    width: 500px;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    padding: 20px;
+    background-color: green;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    background-color: greenyellow;
+    color: black;
+}
+input[type=text],input[type=email],input[type=date],input[type=tel]{
+    width: 100%;
+    height: 30px;
+    margin: 5px auto;
+}  
+input[type=file]{
+    display: none;
+}
+textarea{
+    width: 100%;
+}
+label{
+    background-color: green;
+    color: aliceblue;
+    padding: 7.5px;
+}
+label:hover{
+    background-color: yellowgreen;
+    color: black;
+}
+.labele{
+    display: flex;
+    justify-content: right;
+}
+p{
+    margin: 2px auto;
+}
+h1{
+    margin: 3px auto;
+}
